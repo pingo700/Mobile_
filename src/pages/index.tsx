@@ -1,0 +1,7 @@
+export { default as Login } from './login'
+export { default as Cadastro } from './cadastro'
+export { default as Home } from './home'
+export { default as Configuracao } from './config'
+export { default as Grafico } from './grafico'
+export { default as Calendario } from './calendario'
+export { default as Chat } from './chat'

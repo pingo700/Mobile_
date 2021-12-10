@@ -1,0 +1,7 @@
+export { default as Login } from './pages/login'
+export { default as Cadastro } from './pages/cadastro'
+export { default as Home } from './pages/home'
+export { default as Calendario } from './pages/calendario'
+export { default as Configuracao } from './pages/config'
+export { default as Grafico } from './pages/grafico'
+export { default as Chat } from './pages/chat'

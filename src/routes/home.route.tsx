@@ -13,9 +13,9 @@ import { AxiosError } from "axios";
 import { useAuth } from "../hook/auth";
 
 const Tab = createBottomTabNavigator();
-const { access_token } = useAuth();
 
 export default function HomeRoute() {
+  const { access_token } = useAuth();
   return (
     <Tab.Navigator
     tabBarOptions={{
